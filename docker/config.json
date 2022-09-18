@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "fr",
+            "script": "yarn",
+            "args": "start",
+            "interpreter": "bash"
+        },
+        {
+            "name": "be",
+            "script": "ts-node",
+            "args": "./src/klaytn/backend.ts"
+        }
+    ]
+}
